@@ -1,0 +1,75 @@
+
+.wedBG{
+  background: url("weather.jpeg");
+  background-size: cover;
+  height: 100vh;
+
+}
+.heading{
+  color: rgb(238, 223, 217);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:oblique;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+
+
+}
+
+.searchbar{
+  background-color: transparent;
+  color:white;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 9px;
+  margin-left: 600px; 
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 15%;
+  /* padding-bottom: 10px; */
+}
+
+.searchbtn{
+  background-image: url("search1.png");
+  background-size: cover;
+  background-color: transparent; 
+  border-radius: 30%;
+  height: 50px;
+  width: 50px;  
+  margin-left: 20px;    
+} 
+.searchbtn:hover{
+    transform: scale(1.1);
+}
+.result{
+  margin-top: 200px;
+  margin-left: 500px;
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.boximg{
+  width: 100px;
+  height: 100px;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+
+.weathercity{
+  font-size: 35px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.weathertemp{
+  font-size: 50px;
+  color: white;
+  margin-left: 190px;
+  margin-top: 9px;
+}
+
+
